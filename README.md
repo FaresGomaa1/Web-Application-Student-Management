@@ -47,13 +47,20 @@ The `SchoolContext` class is the Entity Framework DbContext for interacting with
 
 ## Usage
 
-To use this web application, follow these steps:
+To utilize this web application, adhere to these steps:
 
-1. Clone the repository.
-2. Configure the database connection in `appsettings.json`.
-3. Run Entity Framework migrations to create the database schema.
-4. Build and run the application.
-5. Use HTTP requests to interact with the provided APIs.
+1. **Clone the repository**: Obtain a local copy of the project by cloning the repository.
+   
+2. **Configure the database connection**: Navigate to `appsettings.json` and configure the database connection according to your environment settings.
+
+3. **Run Entity Framework migrations**: Execute Entity Framework migrations to create the necessary database schema.
+
+4. **Build and run the application**: Build the application and run it using your preferred development environment.
+
+5. **Interact with the APIs**: Utilize HTTP requests to interact with the provided APIs.
+
+Ensure to relocate the "FrontEnd" folder outside of the project to avoid encountering errors. 
+This folder contains an HTML page designed to test the API, so you'll need to run it with a live server.
 
 ## Dependencies
 
